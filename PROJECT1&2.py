@@ -62,3 +62,32 @@ def rotate_left_carry(binary, carry, positions):
 question1()
 rotate_left("10110110", 2)
 rotate_left_carry("10110110", 0, 2)
+QUESTION 1: SIGNED BINARY ARITHMETIC
+
+Expression: 45 - ( 19 )
+First operand: 00101101
+Second operand: 00010011
+Result binary: 00011010
+Result decimal: 26
+Overflow: No
+
+Expression: -35 - ( -12 )
+First operand: 11011101
+Second operand: 11110100
+Result binary: 11101001
+Result decimal: -23
+Overflow: No
+
+QUESTION 2(a): ROL
+Original: 10110110
+After rotation 1 : 01101101
+After rotation 2 : 11011010
+Final result: 11011010
+
+QUESTION 2(b): RCL
+Original: 10110110
+Initial carry: 0
+After rotation 1 : 01101100 Carry: 1
+After rotation 2 : 11011001 Carry: 0
+Final result: 11011001
+Final carry: 0
